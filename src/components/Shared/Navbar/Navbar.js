@@ -2,6 +2,9 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import FacePic from '../../../img/face.png';
 const Navbar = () => {
+    const collapseNav = () =>{
+      document.getElementById("navbarSupportedContent").classList.remove("show");
+    }
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
           <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -16,19 +19,19 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-              <Link to="/" className="nav-link js-scroll-trigger">Home</Link>
+              <Link to="/" className="nav-link js-scroll-trigger"onClick={collapseNav}>Home</Link>
               </li>
               <li class="nav-item">
-                <Link to="/edu" className="nav-link js-scroll-trigger">Education</Link>
+                <Link to="/edu" className="nav-link js-scroll-trigger" onClick={collapseNav}>Education</Link>
               </li>
               <li class="nav-item">
-              <Link to="/proj" className="nav-link js-scroll-trigger">Projects</Link>
+              <Link to="/proj" className="nav-link js-scroll-trigger"onClick={collapseNav}>Projects</Link>
               </li>
               <li class="nav-item">
-                <Link to="/skills" className="nav-link js-scroll-trigger">Skills</Link>
+                <Link to="/skills" className="nav-link js-scroll-trigger"onClick={collapseNav}>Skills</Link>
               </li>
               <li class="nav-item">
-                <Link to="/work" className="nav-link js-scroll-trigger">Work Experience</Link>
+                <Link to="/work" className="nav-link js-scroll-trigger"onClick={collapseNav}>Work Experience</Link>
               </li>
               
             </ul>
