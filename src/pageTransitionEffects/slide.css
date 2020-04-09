@@ -1,0 +1,35 @@
+.pageSlider-exit > .page {
+  z-index: 1;
+}
+
+.pageSlider-ender > .page {
+  z-index: 10;
+}
+
+.pageSlider-enter.left > .page {
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+}
+
+.pageSlider-enter.right > .page {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+
+.pageSlider-exit-left > .page {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+
+.pageSlider-exit-right > .page {
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+}
+
+.pageSlider-enter.pageSlider-enter-active > .page {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
+/*# sourceMappingURL=slide.css.map */
