@@ -1,10 +1,13 @@
 import React from 'react';
 import Youtube from 'react-youtube';
+import {Image} from 'react-bootstrap';
+import port2 from '../../img/port2.PNG';
 const Projects = () => {
     const opts = {
         height: '400',
-        width: '100%',
+        width: window.innerWidth > 600 ?'80%' : '100%',
     }
+    const width = window.innerWidth > 600 ? '80%' : '100%';
     return (
         
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center page" id="interests">
@@ -57,6 +60,34 @@ const Projects = () => {
             </ul>
             <Youtube videoId="CrHX8cJrdDI" opts={opts} />
         </div>
+        <div className="proj">
+            <h3 class="mb-0 text-secondary">Old Portfolio</h3>
+            
+            <div class="mb-3">
+
+                    <a href="http://dk95gs-002-site1.itempurl.com/" className="subheading mb-3"> The site can be view here </a>
+            </div>
+            <p>
+                This is my old portfolio website that I created in college. No CSS library was used for this projet, it's plain HTML and SCSS/CSS. This project was used as an
+                opportunity to learn SCSS and to refine my current CSS skills
+            </p>
+            <div className="subheading ">
+            Tech Stack:
+            </div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    HTML</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    CSS</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    SCSS</li>
+            </ul>
+            <Image width={width} src={port2} />
+        </div>
+    
         <div className="proj">
             <h3 class="mb-0 text-secondary">Monogame Project - Galactic Invader</h3>
             

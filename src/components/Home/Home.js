@@ -12,7 +12,10 @@ const Home = () =>{
                 <div class="subheading mb-5">Full-stack Web Developer · Guelph ON · (226) 868-0179 · 
                 <a href="mailto:dk95gs@gmail.com"> dk95gs@gmail.com</a>
                 </div>
-                <p class="mb-5">I am a graduate of the Computer Programmer/Analyst program at Conestoga College. I'm also currently enrolled in McMaster Universitys Software Engineering Technology program, in level 3.</p>
+                <p class="mb-3">Graduate of the Computer Programmer/Analyst program offered at Conestoga College. Currently enrolled in McMaster Universitys Software Engineering Technology Co-op program, in level 3.</p>
+                <p class="mb-5">
+                    
+                </p>
                 <div class="social-icons">
                 <a href="https://www.linkedin.com/in/dkarunanayaka/">
                     <i class="fab fa-linkedin-in"></i>
