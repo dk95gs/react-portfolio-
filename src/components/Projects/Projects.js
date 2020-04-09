@@ -1,13 +1,27 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Youtube from 'react-youtube';
 import {Image} from 'react-bootstrap';
 import port2 from '../../img/port2.PNG';
 const Projects = () => {
-    const opts = {
-        height: '400',
-        width: window.innerWidth > 600 ?'80%' : '100%',
-    }
-    const width = window.innerWidth > 600 ? '80%' : '100%';
+    let [checkeredVideo,setCheckeredVideo]  = useState(null);
+    let [cvgsVideo,setcvgsVideo]  = useState(null);
+    let [galacticVideo,setGalacticVideo]  = useState(null);
+    let [width, setWidth] = useState(window.innerWidth > 600 ? '80%' : "100%")
+
+    //const width = window.innerWidth > 600 ? '80%' : '100%';
+    useEffect(()=>{
+        const opts = {
+            height: '400',
+            width: window.innerWidth > 600 ?'80%' : '100%',
+        }
+        setTimeout(()=>{
+            setCheckeredVideo(checkeredVideo =  <Youtube videoId="2akjiaLPhVE" opts={opts} />);
+            setcvgsVideo(cvgsVideo = <Youtube videoId="CrHX8cJrdDI" opts={opts} />)
+            setGalacticVideo(galacticVideo = <Youtube videoId="scL-RmUg_70" opts={opts} />)
+        }, 1200);
+     
+        console.log("mounted")
+    }, [])
     return (
         
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center page" id="interests">
@@ -35,7 +49,7 @@ const Projects = () => {
                     <i class="fa-li fa fa-check"></i>
                     MySQL</li>
             </ul>
-            <Youtube videoId="2akjiaLPhVE" opts={opts} />
+            {checkeredVideo}
         </div>
         <div className="proj">
             <h3 class="mb-0 text-secondary">Conestoga Online Game Store</h3>
@@ -58,14 +72,14 @@ const Projects = () => {
                     <i class="fa-li fa fa-check"></i>
                     MySQL</li>
             </ul>
-            <Youtube videoId="CrHX8cJrdDI" opts={opts} />
+            {cvgsVideo}
         </div>
         <div className="proj">
             <h3 class="mb-0 text-secondary">Old Portfolio</h3>
             
             <div class="mb-3">
 
-                    <a href="http://dk95gs-002-site1.itempurl.com/" className="subheading mb-3"> The site can be view here </a>
+                    <a href="http://dk95gs-002-site1.itempurl.com/" className="subheading mb-3"> The site can be viewed here </a>
             </div>
             <p>
                 This is my old portfolio website that I created in college. No CSS library was used for this projet, it's plain HTML and SCSS/CSS. This project was used as an
@@ -110,7 +124,7 @@ const Projects = () => {
                     <i class="fa-li fa fa-check"></i>
                     MonoGame Framework</li>
             </ul>
-            <Youtube videoId="scL-RmUg_70" opts={opts} />
+            {galacticVideo}
         </div>
     </div>
   </section>

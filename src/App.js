@@ -28,13 +28,13 @@ class App extends Component  {
       });
   }
   getPageNum(location) {
-    let arr = location.pathname;
+    let pathName = location.pathname;
   
-    if(arr === "/"){return 1}
-    if(arr === "/proj"){return 2}
-    if(arr === "/edu"){return 3}
-    if(arr === "/work"){return 4}
-    if(arr === "/skills"){return 5}
+    if(pathName === "/"){return 1}
+    if(pathName === "/proj"){return 2}
+    if(pathName === "/edu"){return 3}
+    if(pathName === "/work"){return 4}
+    if(pathName === "/skills"){return 5}
 
   }
   render(){
