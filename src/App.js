@@ -49,10 +49,10 @@ class App extends Component  {
                   <div  className={this.getPageNum(location) - this.state.prevPage >= 0 ? "left":"right"}>
                     <Switch location={location}>
                       <Route exact path="/" component={Home}/>
-                      <Route path="/edu" component={Education}/>
-                      <Route path="/skills" component={Skills}/>
                       <Route path="/proj" component={Projects}/>
+                      <Route path="/edu" component={Education}/>
                       <Route path="/work" component={Work}/>
+                      <Route path="/skills" component={Skills}/>
                     </Switch>
                  </div>
               </CSSTransition>

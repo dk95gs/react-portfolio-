@@ -19,19 +19,21 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-              <Link to="/" className="nav-link js-scroll-trigger"onClick={collapseNav}>Home</Link>
+                <Link to="/" className="nav-link js-scroll-trigger"onClick={collapseNav}>Home</Link>
+              </li>
+              <li class="nav-item">
+                <Link to="/proj" className="nav-link js-scroll-trigger"onClick={collapseNav}>Projects</Link>
+                
               </li>
               <li class="nav-item">
                 <Link to="/edu" className="nav-link js-scroll-trigger" onClick={collapseNav}>Education</Link>
               </li>
               <li class="nav-item">
-              <Link to="/proj" className="nav-link js-scroll-trigger"onClick={collapseNav}>Projects</Link>
+                <Link to="/work" className="nav-link js-scroll-trigger"onClick={collapseNav}>Work Experience</Link>
               </li>
               <li class="nav-item">
                 <Link to="/skills" className="nav-link js-scroll-trigger"onClick={collapseNav}>Skills</Link>
-              </li>
-              <li class="nav-item">
-                <Link to="/work" className="nav-link js-scroll-trigger"onClick={collapseNav}>Work Experience</Link>
+               
               </li>
               
             </ul>
