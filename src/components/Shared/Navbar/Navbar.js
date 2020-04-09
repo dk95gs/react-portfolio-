@@ -6,7 +6,7 @@ const Navbar = () => {
       document.getElementById("navbarSupportedContent").classList.remove("show");
     }
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
           <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Dilshan Karunanayaka</span>
             <span class="d-none d-lg-block">

@@ -82,7 +82,9 @@ p.lead {
 .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
 }
-
+#sideNav{
+  background-color:#89253e;
+}
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -136,6 +138,7 @@ p.lead {
 section.resume-section {
   padding-bottom: 5rem !important;
   max-width: 75rem;
+  
 }
 
 section.resume-section .resume-item .resume-date {
@@ -164,19 +167,21 @@ section.resume-section .resume-item .resume-date {
   }
 }
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color:#89253e !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #89253e!important;
 }
-
+.text-secondary {
+  color:  #3a6186!important;
+}
 a {
-  color: #BD5D38;
+  color:#89253e;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color:  #BD5D38;
 }
 p {
   font-size: 1.25rem;

@@ -1,13 +1,17 @@
 import React from 'react';
-
+import Youtube from 'react-youtube';
 const Projects = () => {
+    const opts = {
+        height: '400',
+        width: '100%',
+    }
     return (
         
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center page" id="interests">
     <div class="w-100">
-      <h2 class="mb-5">Projects</h2>
+      <h2 class="mb-5 text-primary">Projects</h2>
       <div className="proj">
-            <h3 class="mb-0">Checkered Eye Project Website Rebuilt with Easy to Use CMS</h3>
+            <h3 class="mb-0 text-secondary">Checkered Eye Project Website Rebuilt with Easy to Use CMS</h3>
             
             <div class="mb-3">
 
@@ -28,9 +32,10 @@ const Projects = () => {
                     <i class="fa-li fa fa-check"></i>
                     MySQL</li>
             </ul>
+            <Youtube videoId="2akjiaLPhVE" opts={opts} />
         </div>
         <div className="proj">
-            <h3 class="mb-0">Conestoga Online Game Store</h3>
+            <h3 class="mb-0 text-secondary">Conestoga Online Game Store</h3>
             
             <div class="mb-3">
 
@@ -50,9 +55,10 @@ const Projects = () => {
                     <i class="fa-li fa fa-check"></i>
                     MySQL</li>
             </ul>
+            <Youtube videoId="CrHX8cJrdDI" opts={opts} />
         </div>
         <div className="proj">
-            <h3 class="mb-0">Monogame Project - Galactic Invader</h3>
+            <h3 class="mb-0 text-secondary">Monogame Project - Galactic Invader</h3>
             
             <div class="mb-3">
 
@@ -73,6 +79,7 @@ const Projects = () => {
                     <i class="fa-li fa fa-check"></i>
                     MonoGame Framework</li>
             </ul>
+            <Youtube videoId="scL-RmUg_70" opts={opts} />
         </div>
     </div>
   </section>
