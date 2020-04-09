@@ -9,7 +9,7 @@ const Home = () =>{
                 </h1>
                 <h1  class="mb-0 text-primary">Karunanayaka</h1>
                </div>
-                <div class="subheading mb-5">Full-stack Web Developer · Guelph ON · (226) 868-0179 · 
+                <div class="subheading mb-5">Software Engineering Technology Student · Guelph ON · (226) 868-0179 · 
                 <a href="mailto:dk95gs@gmail.com"> dk95gs@gmail.com</a>
                 </div>
                 <p class="mb-3">Graduate of the Computer Programmer/Analyst program offered at Conestoga College. Currently enrolled in McMaster Universitys Software Engineering Technology Co-op program, in level 3.</p>
