@@ -5,7 +5,7 @@ const Work = () =>{
     return (
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center page" id="work">
         <div class="w-100">
-          <h2 class="mb-5 text-primary">Work Experience</h2>
+          <h2 class="mb-3 text-primary">Work Experience</h2>
   
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">

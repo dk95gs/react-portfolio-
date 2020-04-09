@@ -9,7 +9,7 @@ const Projects = () => {
         
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center page" id="interests">
     <div class="w-100">
-      <h2 class="mb-5 text-primary">Projects</h2>
+      <h2 class="mb-3 text-primary">Projects</h2>
       <div className="proj">
             <h3 class="mb-0 text-secondary">Checkered Eye Project Website Rebuilt with Easy to Use CMS</h3>
             

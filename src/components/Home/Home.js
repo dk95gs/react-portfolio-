@@ -4,9 +4,11 @@ const Home = () =>{
     return (
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center page" id="about">
             <div class="w-100">
-                <h1 class="mb-0 text-secondary">Dilshan
-                <span class="text-primary">Karunanayaka</span>
+               <div className="nameTitle">
+               <h1 class="mb-0 text-secondary">Dilshan  
                 </h1>
+                <h1  class="mb-0 text-primary">Karunanayaka</h1>
+               </div>
                 <div class="subheading mb-5">Full-stack Web Developer · Guelph ON · (226) 868-0179 · 
                 <a href="mailto:dk95gs@gmail.com"> dk95gs@gmail.com</a>
                 </div>

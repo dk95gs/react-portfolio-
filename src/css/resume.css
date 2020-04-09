@@ -30,8 +30,9 @@ h6 {
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 5rem;
   line-height: 5.5rem;
+  word-wrap:break-word;
 }
 
 h2 {
@@ -164,6 +165,16 @@ section.resume-section .resume-item .resume-date {
   .skills-card {
     width: 35vw!important;
     height: 25vh!important;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  .subheading {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1rem!important ;
   }
 }
 .bg-primary {

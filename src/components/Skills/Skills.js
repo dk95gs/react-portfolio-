@@ -14,7 +14,7 @@ const Skills = () =>{
     return (
         <section class="resume-section p-3 p-lg-5 d-flex justify-content-center page" id="skills">
         <div class="w-100">
-          <h2 class="mb-5 text-primary">Skills</h2>
+          <h2 class="mb-3 text-primary">Skills</h2>
           <div class="subheading mb-3 text-secondary">Programming Languages &amp; Tools</div>
           <div className="skills-body">
             <div class="skills-card">
