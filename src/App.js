@@ -29,11 +29,13 @@ class App extends Component  {
   }
   getPageNum(location) {
     let arr = location.pathname;
-    arr = arr.split("/");
-    
-    arr = arr.filter(x => x !== "");
-    
-    return arr.length;
+  
+    if(arr === "/"){return 1}
+    if(arr === "/proj"){return 2}
+    if(arr === "/edu"){return 3}
+    if(arr === "/work"){return 4}
+    if(arr === "/skills"){return 5}
+
   }
   render(){
     const {location} = this.props;
@@ -46,7 +48,7 @@ class App extends Component  {
           <Navbar/>
             <TransitionGroup component="div" className="App">
               <CSSTransition key={currentKey} timeout={timeout} classNames="pageSlider" mountOnEnter={false} unmountOnExit={true}>
-                  <div  className={this.getPageNum(location) - this.state.prevPage >= 0 ? "left":"right"}>
+                  <div  className={this.getPageNum(location) - this.state.prevPage  >= 0 ? "left":"right"}>
                     <Switch location={location}>
                       <Route exact path="/" component={Home}/>
                       <Route path="/proj" component={Projects}/>
