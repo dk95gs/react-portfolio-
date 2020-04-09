@@ -12,9 +12,12 @@ const Home = () =>{
                 <div class="subheading mb-5">Software Engineering Technology Student · Guelph ON · (226) 868-0179 · 
                 <a href="mailto:dk95gs@gmail.com"> dk95gs@gmail.com</a>
                 </div>
-                <p class="mb-3">Graduate of the Computer Programmer/Analyst program offered at Conestoga College. Currently enrolled in McMaster University's Software Engineering Technology Co-op program, in level 3.</p>
-                <p class="mb-5">
-                    This website was created using <strong>React & Bootstrap</strong> and deployed using <strong>ZEIT</strong>
+                <p class="mb-3">Hello! I am a graduate of the <strong>Computer Programmer/Analyst </strong> program offered at <strong>Conestoga College</strong>. Currently enrolled in <strong>McMaster University's Software Engineering Technology Co-op program,</strong> in level 3.</p>
+                <p class="mb-3">
+                    I have a passion towards Full Stack Web Development, familiar with technologies such as: <strong>React</strong>, <strong>Express</strong>, <strong>ASP.Net Core</strong> and <strong>MySQL </strong>.
+                </p>
+                <p class="mb-4">
+                    This website was created using <strong>React & Bootstrap</strong> and deployed using <strong>ZEIT</strong>.
                 </p>
                 <div class="social-icons">
                 <a href="https://www.linkedin.com/in/dkarunanayaka/">
