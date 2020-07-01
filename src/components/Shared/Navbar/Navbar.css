@@ -1,0 +1,16 @@
+/*.navbar {
+    animation: slideRight 1.5s ease-in-out;
+}*/
+@keyframes slideRight {
+    0%{
+        transform: translate(-100%, 0);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+.resumeLink {
+    color:#3881c6;
+    font-weight: 800;
+    font-size: 1.25rem;
+}

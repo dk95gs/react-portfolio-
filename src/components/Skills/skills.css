@@ -36,3 +36,19 @@
         transition: all .5s; }
         .skills-card-img:hover {
           transform: scale(1.1); }
+          @media(max-width: 600px){
+            .skills-card {
+              width: 35vw!important;
+              height: 20vh!important;
+            }
+            h1 {
+              font-size: 2rem;
+              line-height: 1.5;
+            }
+            .subheading {
+              font-size: 1.25rem;
+            }
+            p {
+              font-size: 1rem!important ;
+            }
+          }

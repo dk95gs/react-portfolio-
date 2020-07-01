@@ -9,6 +9,7 @@ import rest from '../../img/skills/rest.png';
 import sql from '../../img/skills/sql.png';
 import git from '../../img/skills/git.png';
 import node from '../../img/skills/node.png';
+import test from '../../img/skills/test.png';
 const Skills = () =>{
   const noBorderStyle = {borderRadius:"unset", boxShadow:"none"};
     return (
@@ -43,6 +44,9 @@ const Skills = () =>{
               </div>
               <div class="skills-card">
                   <img src={node} class="skills-card-img" alt="Alternate Text" />
+              </div>
+              <div class="skills-card">
+                  <img style={{boxShadow:'unset'}} src={test} class="skills-card-img" alt="Alternate Text" />
               </div>
           </div>
         </div>

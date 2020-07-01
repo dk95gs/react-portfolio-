@@ -1,0 +1,14 @@
+.animate {
+    
+}
+.nameTitle {
+    animation: slideRight 1.5 linear ;
+}
+@keyframes slideRight {
+    0%{
+        transform: translate(-100%, 0);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}

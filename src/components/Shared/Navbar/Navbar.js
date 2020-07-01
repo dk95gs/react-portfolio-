@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import FacePic from '../../../img/face.png';
+import pdf from "../../../files/DK Resume 4.0.pdf";
+import './Navbar.css';
 const Navbar = () => {
     const collapseNav = () =>{
       document.getElementById("navbarSupportedContent").classList.remove("show");
@@ -11,13 +13,18 @@ const Navbar = () => {
             <span class="d-block d-lg-none">Dilshan Karunanayaka</span>
             <span class="d-none d-lg-block">
               <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src={FacePic} alt=""/>
-            </span>
+            </span>  
           </a>
+          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+     
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
+              <li>
+              <a className="resumeLink" href={pdf} target="_blank">View PDF Resume</a>
+              </li>
               <li class="nav-item">
                 <Link to="/" className="nav-link js-scroll-trigger"onClick={collapseNav}>Home</Link>
               </li>
@@ -26,11 +33,12 @@ const Navbar = () => {
                 
               </li>
               <li class="nav-item">
-                <Link to="/edu" className="nav-link js-scroll-trigger" onClick={collapseNav}>Education</Link>
-              </li>
-              <li class="nav-item">
                 <Link to="/work" className="nav-link js-scroll-trigger"onClick={collapseNav}>Work Experience</Link>
               </li>
+              <li class="nav-item">
+                <Link to="/edu" className="nav-link js-scroll-trigger" onClick={collapseNav}>Education</Link>
+              </li>
+           
               <li class="nav-item">
                 <Link to="/skills" className="nav-link js-scroll-trigger"onClick={collapseNav}>Skills</Link>
                

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () =>{
     return (
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center page" id="about">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center page animate" id="about">
             <div class="w-100">
                <div className="nameTitle">
                <h1 class="mb-0 text-secondary">Dilshan  

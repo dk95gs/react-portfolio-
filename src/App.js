@@ -32,8 +32,8 @@ class App extends Component  {
   
     if(pathName === "/"){return 1}
     if(pathName === "/proj"){return 2}
-    if(pathName === "/edu"){return 3}
-    if(pathName === "/work"){return 4}
+    if(pathName === "/work"){return 3}
+    if(pathName === "/edu"){return 4}
     if(pathName === "/skills"){return 5}
 
   }
@@ -52,8 +52,8 @@ class App extends Component  {
                     <Switch location={location}>
                       <Route exact path="/" component={Home}/>
                       <Route path="/proj" component={Projects}/>
-                      <Route path="/edu" component={Education}/>
                       <Route path="/work" component={Work}/>
+                      <Route path="/edu" component={Education}/>
                       <Route path="/skills" component={Skills}/>
                     </Switch>
                  </div>

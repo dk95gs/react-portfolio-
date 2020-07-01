@@ -7,13 +7,13 @@ const Projects = () => {
     let [cvgsVideo,setcvgsVideo]  = useState(null);
     let [galacticVideo,setGalacticVideo]  = useState(null);
     let [width, setWidth] = useState(window.innerWidth > 600 ? '80%' : "100%")
-
+    const opts = {
+        height: '400',
+        width: window.innerWidth > 600 ?'80%' : '100%',
+    }
     //const width = window.innerWidth > 600 ? '80%' : '100%';
     useEffect(()=>{
-        const opts = {
-            height: '400',
-            width: window.innerWidth > 600 ?'80%' : '100%',
-        }
+       
         setTimeout(()=>{
             setCheckeredVideo(checkeredVideo =  <Youtube videoId="2akjiaLPhVE" opts={opts} />);
             setcvgsVideo(cvgsVideo = <Youtube videoId="CrHX8cJrdDI" opts={opts} />)

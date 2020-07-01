@@ -1,12 +1,24 @@
 import React from 'react';
 import {Image} from 'react-bootstrap';
 import Bayer from '../../img/bayer.jpg';
+import CP from '../../img/cp.png';
 const Work = () =>{
     return (
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center page" id="work">
         <div class="w-100">
           <h2 class="mb-3 text-primary">Work Experience</h2>
   
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0 text-secondary">Contract Web Development</h3>
+              <div style={{marginTop:"1rem"}} class="subheading mb-3"> Canadian Powersports Financing  <Image src={CP} /> <a href="http://cpfinancing.ca/">CPFinancing.ca</a></div>
+              <p>I was contracted by a local business; tasked with creating & deploying a website that would help them generate leads on potential clients. The website showcases all services the business offers and has a form a visitor can fill out if they are interested in the business.  Once the form is submitted, it is formatted and emailed to the owner. </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2020 - Contracted to build site</span>
+            </div>
+          </div>
+
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
               <h3 class="mb-0 text-secondary">Field Research Assistant</h3>

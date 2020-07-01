@@ -161,22 +161,7 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem !important;
   }
 }
-@media(max-width: 600px){
-  .skills-card {
-    width: 35vw!important;
-    height: 25vh!important;
-  }
-  h1 {
-    font-size: 2rem;
-    line-height: 1.5;
-  }
-  .subheading {
-    font-size: 1.25rem;
-  }
-  p {
-    font-size: 1rem!important ;
-  }
-}
+
 .bg-primary {
   background-color:#89253e !important;
 }
