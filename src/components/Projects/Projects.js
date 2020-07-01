@@ -77,9 +77,10 @@ const Projects = () => {
         <div className="proj">
             <h3 class="mb-0 text-secondary">Old Portfolio</h3>
             
+                 
             <div class="mb-3">
 
-                    <a href="http://dk95gs-002-site1.itempurl.com/" className="subheading mb-3"> The site can be viewed here </a>
+                    <a href="https://github.com/dk95gs/DKPortfolio" className="subheading mb-3"> Click Here to View Project Soruce Code on Github </a>
             </div>
             <p>
                 This is my old portfolio website that I created in college. No CSS library was used for this projet, it's plain HTML and SCSS/CSS. This project was used as an
