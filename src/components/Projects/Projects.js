@@ -26,7 +26,62 @@ const Projects = () => {
         
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center page" id="interests">
     <div class="w-100">
-      <h2 class="mb-3 text-primary">Projects</h2>
+    <h2 class="mb-3 text-primary">Current Projects</h2>
+    <div className="proj">
+        <h3 class="mb-0 text-secondary">Spotify Playlist Manager - WIP</h3>
+        <div class="mb-3">
+        
+        <a href="https://github.com/dk95gs/SpotifyPlaylistManager" className="subheading mb-3"> Click Here to View Project Soruce Code on Github </a>
+        <p>A web application I made because I wanted a faster way to add all the songs, or a few songs, of one playlist into another playlist (or multiple different playlists).
+ 
+            
+          </p>
+            <div className="subheading ">
+                    Tech Stack:
+            </div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    React</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Redux</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Node.Js</li>
+                    <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Spotify Web API</li>
+            </ul>
+        </div>
+{/*       
+        <h3 class="mb-0 text-secondary">Testing Playground</h3>
+        <div class="mb-3">
+        
+        <a href="https://github.com/dk95gs/SpotifyPlaylistManager" className="subheading mb-3"> Click Here to View Project Soruce Code on Github </a>
+        <p>
+            This is an application that I will be continuously adding to and running tests on in order to practice testing
+        </p>
+            <div className="subheading ">
+                    Tech Stack:
+            </div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Jest</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    React-testing-library</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    MongoDb</li>
+                    <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Mocha</li>
+            </ul>
+        </div> */}
+    </div>
+      <h2 class="mb-3 text-primary">Past Projects</h2>
       <div className="proj">
             <h3 class="mb-0 text-secondary">Checkered Eye Project Website Rebuilt with Easy to Use CMS</h3>
             
