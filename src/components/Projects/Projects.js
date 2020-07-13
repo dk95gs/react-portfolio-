@@ -26,15 +26,15 @@ const Projects = () => {
         
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center page" id="interests">
     <div class="w-100">
-    <h2 class="mb-3 text-primary">Current Projects</h2>
+    <h2 class="mb-3 text-primary">Recent Projects</h2>
     <div className="proj">
         <h3 class="mb-0 text-secondary">Spotify Playlist Manager - WIP</h3>
         <div class="mb-3">
         
-        <a href="https://github.com/dk95gs/SpotifyPlaylistManager" className="subheading mb-3"> Click Here to View Project Soruce Code on Github </a>
+        <a href="https://github.com/dk95gs/SpotifyPlaylistManager" className="subheading mb-3"> View Project Soruce Code </a> <br></br>
+        <a target="_blank" href="https://spotify-playlist-manager.vercel.app/" className="subheading mb-3"> Demo the Application  </a>
         <p>A web application I made because I wanted a faster way to add all the songs, or a few songs, of one playlist into another playlist (or multiple different playlists).
- 
-            
+       
           </p>
             <div className="subheading ">
                     Tech Stack:
@@ -52,6 +52,36 @@ const Projects = () => {
                     <li>
                     <i class="fa-li fa fa-check"></i>
                     Spotify Web API</li>
+            </ul>
+        </div>
+        <h3 class="mb-0 text-secondary">Covid-19 Statistics Comparison Tool</h3>
+        <div class="mb-3">
+        
+        <a href="https://github.com/dk95gs/Covid-Stats-Tracker" className="subheading mb-3"> View Project Soruce Code </a> <br></br>
+        <a target="_blank" href="https://covid-data-visualizer.vercel.app/" className="subheading mb-3"> Demo the Application </a>
+        <p>
+            This is an application that visualizes COVID-19 statistical data. You can compare the confirmed, recovered, and killed stats of any country and you can see a timeline of cases from when cases first started appearing until today
+        </p>
+            <div className="subheading ">
+                    Tech Stack:
+            </div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    React</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Next.js</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    ReCharts</li>
+                    <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Vercel</li>
+                    <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Corona Stats Web API</li>
+                    
             </ul>
         </div>
 {/*       
@@ -87,7 +117,7 @@ const Projects = () => {
             
             <div class="mb-3">
 
-                    <a href="https://github.com/dk95gs/CapstoneBackup" className="subheading mb-3"> Click Here to View Project Soruce Code on Github </a>
+                    <a href="https://github.com/dk95gs/CapstoneBackup" className="subheading mb-3"> View Project Soruce Code </a>
             </div>
             <p>For our capstone project we were tasked with re-creating the Checkered Eye Project website. The site required a Content Managment System that allowed the site owner to make changes to the website.</p>
             <div className="subheading ">
@@ -111,7 +141,7 @@ const Projects = () => {
             
             <div class="mb-3">
 
-                    <a href="https://github.com/dk95gs/CVGS" className="subheading mb-3"> Click Here to View Project Soruce Code on Github </a>
+                    <a href="https://github.com/dk95gs/CVGS" className="subheading mb-3"> View Project Soruce Code </a>
             </div>
             <p>This is a web Application with a customer and employee portal. Allows employees to add games to the store, create events and approve reviews & shipment.
 
@@ -135,7 +165,7 @@ const Projects = () => {
                  
             <div class="mb-3">
 
-                    <a href="https://github.com/dk95gs/DKPortfolio" className="subheading mb-3"> Click Here to View Project Soruce Code on Github </a>
+                    <a href="https://github.com/dk95gs/DKPortfolio" className="subheading mb-3"> View Project Soruce Code </a>
             </div>
             <p>
                 This is my old portfolio website that I created in college. No CSS library was used for this projet, it's plain HTML and SCSS/CSS. This project was used as an
@@ -163,7 +193,7 @@ const Projects = () => {
             
             <div class="mb-3">
 
-                    <a href="https://github.com/dk95gs/MonoGame-SpaceShooter" className="subheading mb-3"> Click Here to View Project Soruce Code on Github </a>
+                    <a href="https://github.com/dk95gs/MonoGame-SpaceShooter" className="subheading mb-3"> View Project Soruce Code </a>
             </div>
             <p>This is a video game made with MonoGame in Visual Studio 2017 as a final project for my Object-Oriented Game Programming class. The game itself is a 2D side scrolling spaceship shooter game featuring 4 different enemy types, an asteroid, a boss level and power ups with sound effects and music.</p>
             <div className="subheading ">

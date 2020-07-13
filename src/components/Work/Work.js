@@ -11,7 +11,7 @@ const Work = () =>{
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
               <h3 class="mb-0 text-secondary">Contract Web Development</h3>
-              <div style={{marginTop:"1rem"}} class="subheading mb-3"> Canadian Powersports Financing  <Image src={CP} /> <a href="http://cpfinancing.ca/">CPFinancing.ca</a></div>
+              <div style={{marginTop:"1rem"}} class="subheading mb-3"> Canadian Powersports Financing  <Image src={CP} /> <a target="_target" href="http://cpfinancing.ca/">CPFinancing.ca</a></div>
               <p>I was contracted by a local business; tasked with creating & deploying a website that would help them generate leads on potential clients. The website showcases all services the business offers and has a form a visitor can fill out if they are interested in the business.  Once the form is submitted, it is formatted and emailed to the owner. </p>
             </div>
             <div class="resume-date text-md-right">
