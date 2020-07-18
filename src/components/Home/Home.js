@@ -17,7 +17,7 @@ const Home = () =>{
                     I have a passion towards Full Stack Web Development, familiar with technologies such as: <strong>React</strong>, <strong>Express</strong>, <strong>ASP.Net Core</strong> and <strong>MySQL </strong>.
                 </p>
                 <p class="mb-4">
-                    This website was created using <strong>React & Bootstrap</strong> and deployed using <strong>ZEIT</strong>.
+                    This website was created using <strong>React & Bootstrap</strong> and deployed using <strong>Vercel</strong>.
                 </p>
                 <div class="social-icons">
                 <a href="https://www.linkedin.com/in/dkarunanayaka/">
