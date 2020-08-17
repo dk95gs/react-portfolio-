@@ -129,7 +129,8 @@ const Projects = () => {
         </div>
         <h2 class="mb-3 text-primary">Recent Projects</h2>
     <div className="proj">
-        <h3 class="mb-0 text-secondary">Spotify Playlist Manager - WIP</h3>
+        {/*
+            <h3 class="mb-0 text-secondary">Spotify Playlist Manager - WIP</h3>
         <div class="mb-3">
         
         <a href="https://github.com/dk95gs/SpotifyPlaylistManager" className="subheading mb-3"> View Project Soruce Code </a> <br></br>
@@ -155,6 +156,7 @@ const Projects = () => {
                     Spotify Web API</li>
             </ul>
         </div>
+        */}
         <h3 class="mb-0 text-secondary">Covid-19 Statistics Comparison Tool</h3>
         <div class="mb-3">
         
