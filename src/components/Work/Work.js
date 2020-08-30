@@ -8,7 +8,7 @@ const Work = () =>{
         <div class="w-100">
           <h2 class="mb-3 text-primary">Work Experience</h2>
   
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          {/*<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
               <h3 class="mb-0 text-secondary">Contract Web Development</h3>
               <div style={{marginTop:"1rem"}} class="subheading mb-3"> Canadian Powersports Financing  <Image src={CP} /> <a target="_target" href="http://cpfinancing.ca/">CPFinancing.ca</a></div>
@@ -17,7 +17,7 @@ const Work = () =>{
             <div class="resume-date text-md-right">
               <span class="text-primary">2020 - Contracted to build site</span>
             </div>
-          </div>
+          </div>*/}
 
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
