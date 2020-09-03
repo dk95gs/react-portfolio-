@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image} from 'react-bootstrap';
 import Bayer from '../../img/bayer.jpg';
-import CP from '../../img/cp.png';
+import CP from '../../img/spare.png';
 const Work = () =>{
     return (
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center page" id="work">
@@ -18,7 +18,18 @@ const Work = () =>{
               <span class="text-primary">2020 - Contracted to build site</span>
             </div>
           </div>*/}
-
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0 text-secondary">Front-End Web Developer Contract</h3>
+              <div style={{marginTop:"1rem"}} class="subheading mb-3">    <Image width="70%" src={CP} /> <br></br> <a target="_target" href="https://sparemusic.com/">Sparemusic.com</a></div>
+              <p>
+                Assisted in updating the front-end of the existing company website. Involved working with their existing API to create dynamic and responsive UI components.    
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2020 - Contracted to build site</span>
+            </div>
+          </div>
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
               <h3 class="mb-0 text-secondary">Field Research Assistant</h3>
