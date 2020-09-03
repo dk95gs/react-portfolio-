@@ -130,34 +130,6 @@ const Projects = () => {
             {galacticVideo}
         </div>
         <div className="proj">
-            <h3 class="mb-0 text-secondary">Spotify Playlist Manager - WIP</h3>
-            <div class="mb-3">
-            
-            <a href="https://github.com/dk95gs/SpotifyPlaylistManager" className="subheading mb-3"> View Project Soruce Code </a> <br></br>
-            <a target="_blank" href="https://spotify-playlist-manager.vercel.app/" className="subheading mb-3"> Demo the Application  </a>
-            <p>A web application that uses Spotifys Web API. It allows the user to log in and select multiple songs from a playlist before adding it to one or multiple playlists.
-        
-            </p>
-                <div className="subheading ">
-                        Tech Stack:
-                </div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        React</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Redux</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Node.Js</li>
-                        <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Spotify Web API</li>
-                </ul>
-            </div>
-        </div>
-        <div className="proj">
             <h3 class="mb-0 text-secondary">Covid-19 Statistics Comparison Tool</h3>
             <div class="mb-3">
             
@@ -186,6 +158,34 @@ const Projects = () => {
                         <i class="fa-li fa fa-check"></i>
                         Corona Stats Web API</li>
                         
+                </ul>
+            </div>
+        </div>
+        <div className="proj">
+            <h3 class="mb-0 text-secondary">Spotify Playlist Manager - WIP</h3>
+            <div class="mb-3">
+            
+            <a href="https://github.com/dk95gs/SpotifyPlaylistManager" className="subheading mb-3"> View Project Soruce Code </a> <br></br>
+            <a target="_blank" href="https://spotify-playlist-manager.vercel.app/" className="subheading mb-3"> Demo the Application  </a>
+            <p>A web application that uses Spotifys Web API. It allows the user to log in and select multiple songs from a playlist before adding it to one or multiple playlists.
+        
+            </p>
+                <div className="subheading ">
+                        Tech Stack:
+                </div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        React</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        Redux</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        Node.Js</li>
+                        <li>
+                        <i class="fa-li fa fa-check"></i>
+                        Spotify Web API</li>
                 </ul>
             </div>
         </div>

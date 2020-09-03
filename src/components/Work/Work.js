@@ -27,7 +27,7 @@ const Work = () =>{
               </p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2020 - Contracted to build site</span>
+              <span class="text-primary">May 2019 - September 2019</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
