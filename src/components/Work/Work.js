@@ -18,6 +18,7 @@ const Work = () =>{
               <span class="text-primary">2020 - Contracted to build site</span>
             </div>
           </div>*/}
+         {/*
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
               <h3 class="mb-0 text-secondary">Front-End Web Developer Contract</h3>
@@ -30,6 +31,7 @@ const Work = () =>{
               <span class="text-primary">May 2019 - September 2019</span>
             </div>
           </div>
+         */ }
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
               <h3 class="mb-0 text-secondary">Field Research Assistant</h3>
