@@ -22,9 +22,11 @@ const Navbar = () => {
      
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
+              {/*
               <li>
               <a className="resumeLink" href={pdf} target="_blank">View PDF Resume</a>
               </li>
+              */}
               <li class="nav-item">
                 <Link to="/" className="nav-link js-scroll-trigger"onClick={collapseNav}>Home</Link>
               </li>
